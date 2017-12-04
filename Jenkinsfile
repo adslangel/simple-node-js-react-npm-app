@@ -16,7 +16,11 @@ pipeline {
         }
         stage('Test') { 
             steps {
+<<<<<<< HEAD
                 sh './jenkins/scripts/test.sh' 
+=======
+                sh 'npm install' 
+>>>>>>> f4c0b506e2bd7a969733e942c0bfa83bebfef7b4
             }
         }
     }
