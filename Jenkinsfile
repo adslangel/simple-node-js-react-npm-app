@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh whoami
+                sh 'whoami'
                 input message: 'Finished using the web site? (Click "Proceed" to continue)'
                 sh 'npm install'
             }
