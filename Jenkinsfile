@@ -14,6 +14,7 @@ pipeline {
                 sh 'whoami '
                 input message: 'Finished using the web site? (Click "Proceed" to continue)'
                 sh 'whoami'
+                sh 'whoami'
                 input message: 'Finished using the web site22222? (Click "Proceed" to continue)'
                 sh 'npm install'
             }
